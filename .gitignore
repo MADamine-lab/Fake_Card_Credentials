@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.dbmdl
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data and weights
+training/training/runs/
+training/yolov5/runs/
+training/**/runs/
+backend/__pycache__/
+
+# Logs
+*.log
+
+# System
+Thumbs.db
+.DS_Store
+
+# Model checkpoints
+*.pt
+*.pth
+
+# PyTorch cache
+*.ptl
+
+# API keys and secrets
+*.key
+*.pem
+
+# Misc
+*.bak
+*~
