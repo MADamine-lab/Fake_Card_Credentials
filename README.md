@@ -52,7 +52,7 @@ Example command:
 
 ```bash
 cd training
-python test_detector.py --model "training/training/runs/fake_credential_detector/weights/best.pt" --image fake_card.jpg --show
+python test_detector.py --model "training/runs/fake_credential_detector/weights/best.pt" --image visa_card.jpg --show
 ```
 
 This runs detection on `fake_card.jpg` + OCR validation and displays the result.
